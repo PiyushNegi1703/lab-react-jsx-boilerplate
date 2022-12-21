@@ -33,10 +33,10 @@ export default class AppClass extends Component{
       <h1>Kalvium Gallery</h1>
 
       <div className='images'>
-        <img src={elephant} alt="" />
-        <img src={elephant} alt="" />
-        <img src={elephant} alt="" />
-        <img src={elephant} alt="" />
+        <img src={this.imageData()[0].img} alt="" />
+        <img src={this.imageData()[1].img} alt="" />
+        <img src={this.imageData()[2].img} alt="" />
+        <img src={this.imageData()[3].img} alt="" />
       </div>
     </div>
     )
