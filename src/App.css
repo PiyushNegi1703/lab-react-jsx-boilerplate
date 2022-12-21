@@ -1,1 +1,15 @@
 /* add your styles here */
+h1 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.images img {
+    width: 45vw;
+}

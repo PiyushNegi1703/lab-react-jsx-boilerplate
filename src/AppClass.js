@@ -27,4 +27,18 @@ export default class AppClass extends Component{
   }
 
   // code here
+  render(){
+    return(
+      <div>
+      <h1>Kalvium Gallery</h1>
+
+      <div className='images'>
+        <img src={elephant} alt="" />
+        <img src={elephant} alt="" />
+        <img src={elephant} alt="" />
+        <img src={elephant} alt="" />
+      </div>
+    </div>
+    )
+  }
 }
